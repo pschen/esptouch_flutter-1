@@ -1,0 +1,2 @@
+rootProject.name = 'esptouch_flutter'
+include ':esptouch'

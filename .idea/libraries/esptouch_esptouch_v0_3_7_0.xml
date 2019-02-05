@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="esptouch.esptouch-v0.3.7.0" type="AndroidModuleLibraryType">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/esptouch/esptouch-v0.3.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="KotlinJavaRuntime">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/lib/kotlin-stdlib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/lib/kotlin-reflect.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/lib/kotlin-test.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/android/lib/kotlin-stdlib-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/lib/kotlin-reflect-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/android/lib/kotlin-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
