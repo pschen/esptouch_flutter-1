@@ -19,27 +19,19 @@ class EsptouchFlutter {
     return isInit;
   }
 
-  static subscribeToResults() {
-    print("subscribeToResults");
-
-    _eventSubscriber =
-        _eventChannel.receiveBroadcastStream().listen(_onDeviceAdded);
+  static Stream getStream() {
+    print("subscribe");
+    // _eventSubscriber =
+        // _eventChannel.receiveBroadcastStream().listen(onDeviceAdded);
+    return _eventChannel.receiveBroadcastStream();
   }
 
-  static _onDeviceAdded(result) {
-    print("onDeviceAdded");
-    EspTouchResult espTouchResult = EspTouchResult.fromMap(Map.from(result));
-    print(espTouchResult.bssid);
-    print(espTouchResult.inetAddress);
-    print(espTouchResult.isSuc);
-  }
-
-  static unsubscribe() {
-    if (_eventSubscriber != null) {
-      _eventSubscriber.cancel();
-      _eventSubscriber = null;
-    }
-  }
+  // static unsubscribe() {
+  //   if (_eventSubscriber != null) {
+  //     _eventSubscriber.cancel();
+  //     _eventSubscriber = null;
+  //   }
+  // }
 }
 
 class WifiCred {
